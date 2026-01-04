@@ -5,7 +5,7 @@ This project includes separate **Admin** and **Student** panels with secure auth
 ---
 
 ## 📌 Features
-
+### Home Panel
 ### 👨‍💼 Admin Panel
 - Admin login authentication
 - Dashboard overview
@@ -17,10 +17,10 @@ This project includes separate **Admin** and **Student** panels with secure auth
 ![Admin Login](images/admin_login.png)
 ### 📊 Admin Dashboard
 ![Admin Dashboard](images/admin_dashboard.png)
-### 🚌 Bus Details
-![Bus Details](images/bus_detail.png)
 ### 🧾 Manage Pass
 ![Manage Pass](images/manage_pass.png)
+### 📄 View Pass
+![View Pass](images/view_pass.png)
 
 ### 🎓 Student Panel
 - Student login
@@ -32,10 +32,8 @@ This project includes separate **Admin** and **Student** panels with secure auth
 ![Student Login](images/student_login.png)
 ### 🏠 Student Dashboard
 ![Student Dashboard](images/student_dashboard.png)
-### ⏳ Pass Validity
-![Pass Validity](images/pass_validity.png)
-### 📄 View Pass
-![View Pass](images/view_pass.png)
+### 🚌 Bus Details
+![Bus Details](images/bus_detail.png)
 
 ## 🛠️ Technologies Used
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
