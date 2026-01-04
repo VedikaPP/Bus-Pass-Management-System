@@ -20,7 +20,7 @@ This project includes separate **Admin** and **Student** panels with secure auth
 ### 🧾 Manage Pass
 ![Manage Pass](images/manage_pass.png)
 ### 📄 View Pass
-![View Pass](images/view_pass.png)
+![View Pass](images/v_pass.png)
 
 ### 🎓 Student Panel
 - Student login
