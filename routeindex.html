@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Details</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="routestyle.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Bus Details</h1>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form id="bus-form">
+                    <div class="form-group">
+                        <label for="bus-select">Select a Bus</label>
+                        <select class="form-control" id="bus-select" onchange="updateDriverDetails()">
+                            <option value="">Select a bus</option>
+                            <option value="bus1" data-driver="Mr.Gole.V.R." data-number="9527307926">Wai Bus 1</option>
+                            <option value="bus2" data-driver="Mr.Karbal.R.D." data-number="9765104472">Satara Stand Bus 2</option>
+                            <option value="bus3" data-driver="Mr.Pawar.D.R." data-number="7744976703">Kelghar Bus 3</option>
+                            <option value="bus4" data-driver="Mr.Chavan.M.L." data-number="9860709203">Karanje Naka Bus 4</option>
+                            <option value="bus5" data-driver="Mr.Kasurde.S.S." data-number="9890701901">Koregoan Bus 5</option>
+                            <option value="bus6" data-driver="Mr.Babar.S.S." data-number="9921139832">Umbraj Bus 6</option>
+                            <option value="bus7" data-driver="Mr.Sankpal.A.B." data-number="93735338852">Rahimatpur Bus 7</option>
+                            <option value="bus8" data-driver="Mr.Jadhav.S.L." data-number="8605916177">Mandve Bus 8</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="driver-name">Driver Name:</label>
+                        <input type="text" id="driver-name" class="form-control" placeholder="Enter Driver Name" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="driver-number">Driver Number:</label>
+                        <input type="text" id="driver-number" class="form-control" placeholder="Enter Driver Number" readonly>
+                    </div>
+                </form>
+                <div id="bus-stops" class="mt-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="routescript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
