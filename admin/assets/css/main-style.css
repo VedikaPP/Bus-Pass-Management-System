@@ -1,0 +1,147 @@
+﻿/* user image section */
+.user-section {
+    margin-top:20px;
+    font-size:22px;
+    background-color:rgb(222, 218, 216);
+}
+.user-section-inner {
+    height: 65px;
+width: 65px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+overflow: hidden;
+display: inline-block;
+float: left;
+margin-right: 15px;
+margin-top: 20px;
+}
+    .user-section-inner img {
+        margin-left:10px;
+        width:55px;
+        height:60px;
+        
+    }
+.user-info {
+    display: block;
+    color:#000!important;
+display: inline-block;
+padding: 15px;
+margin-bottom: 0px
+}
+.user-text-online {
+    font-size:18px;
+    color:#fff
+}
+.user-circle-online {
+    width: 15px!important;
+    height: 15px!important;
+}
+
+/* side-menu section */
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color:rgba(74, 72, 126, 0);
+}
+.navbar-top-links  .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #c0f5ec;
+}
+.navbar-top-links > li > a {
+color: #FFFFFF;
+}
+.nav > li > a {
+padding: 20px 15px;
+}
+#side-menu {
+    background-color:#acb6e5;
+    
+}
+
+ #side-menu a {
+            color:#fff;
+           border-bottom: 1px solid #84B899 !important;
+           height: 55px;
+        }
+        .selected {
+            background-color:rgb(83, 163, 163);
+        }
+        #side-menu a {
+            color: #fff; /* Default text color */
+            border-bottom: 1px solid #84B899 !important; /* Border style */
+            height: 55px; /* Height of each menu item */
+            padding: 10px; /* Optional: Add padding for better spacing */
+            display: block; /* Ensure anchor takes full width */
+            text-decoration: none; /* Remove underline */
+            transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background color and text color */
+        }
+        
+        /* Hover effect for unselected menu items */
+        #side-menu a:hover {
+            background-color: rgb(83, 163, 163); /* Change background color on hover */
+            color: #fff; /* Keep text color white on hover */
+        }
+        
+        /* Selected item (applies to the one that is already active or selected) */
+        .selected {
+            background-color: rgb(83, 163, 163); /* Background for selected menu item */
+            color: #fff; /* Keep text color white */
+        }
+        
+
+  
+/* tap nvbar Section */
+
+#navbar {
+    background-color:#f1a6c3;
+    
+}
+
+.navbar-brand {
+    padding-left:20px;
+}
+.navbar-brand img {
+    height:30px;
+}
+.top-label {
+    position: absolute;
+top: 50%;
+right: 50%;
+margin-top: -24px;
+margin-right: -24px;
+}
+
+/*large font*/
+.large-font {
+    font-size:18px;
+}
+
+.body-Login-back {
+    background-color:#b89184;
+}
+
+.margin-tips {
+    margin:5px;
+}
+.navbar-default {
+border-color: #83e2f7;
+}
+/*media queries*/
+
+@media(min-width:768px) 
+{
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        min-height: 100px;
+       
+       
+    }
+
+}
+
+@media(max-width:768px) {
+#wrapper {
+    margin-top:140px!important;
+    
+}
+}
